@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body {
+    background: url("https://picsum.photos/1600/900?random=1");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 25px 5px 20px 5px;
+}
+
+.input-container input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-container input::placeholder {
+    color:  #fff;
+}
+
+.input-container img {
+    position: absolute;
+    right: 55px;
+    top: 48%;
+    margin-top: 5px;
+}
+
+.submit-button {
+    width: 100%;
+    height: 50px;
+    background-color: #515151;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 24px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: #727272;
+}
+
+.back {
+    text-align: center;
+    margin: 25px 0px 15px 0px;
+}
+
+.back a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.back a:hover {
+    color: rgb(250, 205, 121);
+    text-decoration: underline;
+}
